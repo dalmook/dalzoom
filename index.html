@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Quiz</title>
+    <link rel="stylesheet" href="zoomstyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Zoom Quiz</h1>
+        <div class="quiz-container">
+            <div class="image-container">
+                <img id="quiz-image" src="" alt="Quiz Image">
+                <div class="zoom-overlay" id="zoom-overlay"></div>
+            </div>
+            <div class="controls">
+                <input type="text" id="user-answer" placeholder="What is this?">
+                <button id="submit-answer">Submit</button>
+            </div>
+            <div class="feedback" id="feedback"></div>
+            <div class="scoreboard">
+                <span id="current-score">Score: 0</span>
+                <span id="question-number">Question: 1</span>
+            </div>
+            <button id="next-question" disabled>Next</button>
+        </div>
+    </div>
+
+    <script src="zoomscript.js"></script>
+</body>
+</html>
