@@ -1,0 +1,22 @@
+[
+    {
+        "image": "images/apple.jpg",
+        "answer": "Apple"
+    },
+    {
+        "image": "images/bicycle.jpg",
+        "answer": "Bicycle"
+    },
+    {
+        "image": "images/cat.jpg",
+        "answer": "Cat"
+    },
+    {
+        "image": "images/dog.jpg",
+        "answer": "Dog"
+    },
+    {
+        "image": "images/elephant.jpg",
+        "answer": "Elephant"
+    }
+]
